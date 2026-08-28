@@ -765,9 +765,12 @@ a:focus {
   min-height: 450px;
 }
 
+.video-section {
+  width: 100%;
+}
+
 .video-container {
-  width: 75vw;
-  max-width: none;
+  width: 75%;
   margin: 30px auto 0;
   aspect-ratio: 16 / 9;
 }
