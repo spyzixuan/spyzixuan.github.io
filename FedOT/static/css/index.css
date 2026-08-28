@@ -765,3 +765,18 @@ a:focus {
   min-height: 450px;
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 30px auto 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
